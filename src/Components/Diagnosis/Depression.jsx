@@ -7,7 +7,7 @@ Depression är en vanlig psykisk hälsoutmaning. Det är viktigt att förstå at
 
 Symptomen på depression sträcker sig bortom att känna sig "ledsen". De inkluderar ofta en ihållande känsla av nedstämdhet eller tomhet, minskat intresse för aktiviteter som tidigare gav glädje, trötthet, sömnproblem, viktändringar och/eller svårigheter att fokusera. Många känner också en känsla av hopplöshet och skam/skuld som kan förstärka symtomen.
   
-Att genomgå terapi är en mycket positiv åtgärd mot depression. Strukturerade psykoterapier för depression inkluderar ofta metoder för beteendeaktivering samt för att hantera obekväma tankar och känslor. Om sömnen är påverkad kan även denna adresseras. En aktivitet som har särskild god effekt på depression är motion. 
+Att genomgå terapi är en positiv åtgärd mot depression. Strukturerade psykoterapier för depression inkluderar ofta metoder för beteendeaktivering samt för att hantera obekväma tankar och känslor. Om sömnen är påverkad kan även denna adresseras. En aktivitet som har särskild god effekt på depression är motion. 
   
 Att involvera stödjande personer i din omgivning är också betydelsefullt. Det kan vara vänner, familjemedlemmar eller stödgrupper som kan erbjuda emotionellt stöd och förståelse när du navigerar genom svåra perioder, eller som kan hjälpa dig med din beteendeaktivering.
     

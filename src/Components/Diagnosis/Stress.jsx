@@ -9,7 +9,7 @@ export default function Stress() {
   
   Det är betydelsefullt att inkludera stödjande personer i din omgivning i återhämtning från stressen. Vänner, familjemedlemmar eller stödgrupper kan erbjuda ett stödnätverk. Ibland kan det vara bra att våga be om avlastning från detta nätverk.
   
-  Stress kan både bero på yttre och inre faktorer. Att vara prestationsinriktad har visats vara en riskfaktor för stress. Det kan därför också vara bra att fundera över de krav du ställer på dig själv. Är det möjligt att sänka dessa? I en psykoterapi kan du arbeta med de obehagliga tankar och känslor som uppkommer när du bestämmer dig för att sänka dina krav och öka mängden återhämtning. 
+  Stress kan både bero på yttre och inre faktorer. Att vara prestationsinriktad har visats vara en riskfaktor för besvär orsakade av stress. Det kan därför också vara bra att fundera över de krav du ställer på dig själv. Är det möjligt att sänka dessa? I en psykoterapi kan du arbeta med de obehagliga tankar och känslor som uppkommer när du bestämmer dig för att sänka dina krav och öka mängden återhämtning. 
   
   `;
 

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, useMatch, useResolvedPath } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -9,13 +9,13 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="navbar">
+    <nav className={`navbar ${menuOpen ? "open" : ""}`}>
       <div className="hamburger" onClick={toggleMenu}>
         <div className={`bar ${menuOpen ? "open" : ""}`} />
         <div className={`bar ${menuOpen ? "open" : ""}`} />
         <div className={`bar ${menuOpen ? "open" : ""}`} />
       </div>
-      <ul className={menuOpen ? "open" : ""}>
+      <ul>
         <li><CustomLink to="/">Hem</CustomLink></li>
         <li><CustomLink to="/Depression">Depression</CustomLink></li>
         <li><CustomLink to="/Stress">Stress</CustomLink></li>
@@ -30,11 +30,8 @@ export default function Navbar() {
 }
 
 function CustomLink({ to, children, ...props }) {
-  const resolvedPath = useResolvedPath(to);
-  const isActive = useMatch({ path: resolvedPath.pathname, end: true });
-
   return (
-    <Link to={to} {...props} className={isActive ? "active" : ""}>
+    <Link to={to} {...props}>
       {children}
     </Link>
   );

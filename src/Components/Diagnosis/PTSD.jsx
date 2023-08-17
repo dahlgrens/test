@@ -7,7 +7,7 @@ export default function PTSD() {
   
   Symtom på PTSD kan inkludera återupplevelse av traumat genom mardrömmar eller Flashbacks, där personen känner som om de återupplever händelsen på nytt. Dessa återupplevelser kan vara mycket påfrestande och ångestframkallande. Individer med PTSD kan också undvika platser, människor eller situationer som påminner om traumat. De kan även bli känslomässigt avtrubbade, ha svårt att känna glädje eller intresse för saker som tidigare intresserade dem.
   
-  Hyperarousal är ett annat vanligt symtom på PTSD, där personen är ständigt på helspänn, lättretlig och överväldigad av starka känslor som ilska eller ångest. De kan ha svårt att sova, ha koncentrationssvårigheter och vara lättskrämda. Dessa symtom kan påverka förmågan att fungera i vardagen.
+  Hyperarousal är ett annat vanligt symtom på PTSD, där personen är ständigt på helspänn, lättretlig och överväldigad av starka känslor så som ilska eller ångest. De kan ha svårt att sova, ha koncentrationssvårigheter och vara lättskrämda. Dessa symtom kan påverka förmågan att fungera i vardagen.
   
   Behandling för PTSD innefattar vanligtvis hantering av obehagliga känslor och tankar samt moment av exponering. Exponering går ut på att gradvis utsätta sig för de situationer som undvikits på grund av rädsla. 
   
