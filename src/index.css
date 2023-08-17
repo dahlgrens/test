@@ -1,8 +1,172 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Make the body at least 100% of the viewport height */
+
+}
+
+.content-container p {
+  line-height: 1.6; /* Default line height for paragraphs */
+}
+
+/* Header styling */
+.header {
+  background-color: #f5f5f5;
+  color: #333;
   text-align: center;
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  padding: 1em 0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Footer styling */
+.footer {
+  background-color: #f5f5f5;
+  color: #333;
+  text-align: center;
+  padding: 1em 0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: auto; /* Push the footer to the bottom */
+  min-height: 3em;
+  margin-top: 20px;
+}
+
+/* App styling */
+.app {
+  font-family: Arial, sans-serif;
+}
+
+.main-container {
+  display: flex;
+  flex: 1; /* Take up remaining available space */
+  min-height: 100vh;
+  margin-bottom: 15px;
+}
+/* Navbar styling */
+.navbar {
+  flex: 0 0 150px;
+  background-color: #f5f5f5;
+  color: #333;
+  box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+  padding: 0;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative; /* Add relative positioning */
+}
+
+/* Apply white background to the li's sides when hovering */
+.navbar li:hover {
+  background-color: white;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px; /* Add padding to create space between tag and border */
+  height: 2em; /* Set the height */
+  width: 100%; /* Make the link take up the full width of the li */
+  position: relative; /* Add relative positioning */
+}
+
+/* Center the icon vertically over the tag */
+.navbar a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  opacity: 0;
+  transform: scaleX(0); /* Start with zero width */
+  transform-origin: left; /* Set the transform origin to left */
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Add transition for smooth effect */
+  z-index: -1; /* Send it behind the text */
+}
+
+.navbar li:hover a::before {
+  transform: scaleX(1); /* Expand the white area on hover */
+  opacity: 1;
+}
+
+.navbar li:hover {
+  color: rgba(0, 0, 0, 0.1);
+  cursor: pointer; /* Change cursor to indicate the link */
+}
+
+.navbar a.pushed {
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.link-container {
+  display: inline-block;
+  position: relative;
+}
+
+.white-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  opacity: 0;
+  z-index: -1;
+}
+
+.link-container:hover .white-background {
+  opacity: 1;
+}
+
+
+.light-text {
+  text-align: "center";
+  opacity: 0.7;
+  margin-top: "10px"; 
+  justify-content:space-evenly;
+  margin-right: 50px;
+  display: flex;
+}
+
+.multiline-text {
+  line-height: 11.5; /* Adjust this value to control the line spacing */
+}
+
+/* Add this to your existing CSS */
+.standout-text {
+  font-size: 1.5em; /* Adjust the size as needed */
+  font-weight: bold;
+}
+
+
+
+/* Content container styling */
+.content-container {
+  flex: 1 1 70%; /* Take up 70% of the available width */
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
