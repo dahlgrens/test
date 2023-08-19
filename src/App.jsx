@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import Header from "./Components/Header";
 import Navbar from "./Components/Navbar";
@@ -13,13 +13,21 @@ import PMDS from "./Components/Diagnosis/PMDS"; // Import your PMDS component
 import Footer from "./Components/Footer";
 import SocialFobi from "./Components/Diagnosis/SocialFobi";
 import Paniksyndrom from "./Components/Diagnosis/Paniksyndrom";
+import MenyBotton from "./Components/MenyBotton";
 
 function App() {
+  const [isNavbarVisible, setNavbarVisible] = useState(false);
+
+  const toggleNavbar = () => {
+    setNavbarVisible(!isNavbarVisible);
+  };
+
   return (
     <div className="app">
       <Header />
+      <MenyBotton toggleNavbar={toggleNavbar} />
       <div className="main-container">
-        <Navbar />
+        <Navbar isNavbarVisible={isNavbarVisible} />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Depression" element={<Depression />} />
