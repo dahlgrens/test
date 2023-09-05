@@ -3,7 +3,6 @@ import { Route, Routes } from "react-router-dom";
 import Header from "./Components/Header";
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home"; // Import your Home component
-import ContentContainer from "./Components/ContentContainer";
 import Depression from "./Components/Diagnosis/Depression"; // Import your Depression component
 import Stress from "./Components/Diagnosis/Stress"; // Import your Stress component
 import PTSD from "./Components/Diagnosis/PTSD"; // Import your PTSD component
