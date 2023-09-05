@@ -6,10 +6,6 @@ body {
   min-height: 100vh; /* Make the body at least 100% of the viewport height */
 }
 
-.content-container p {
-  line-height: 1.6; /* Default line height for paragraphs */
-}
-
 /* Header styling */
 .header {
   background-color: #f5f5f5;
@@ -155,16 +151,6 @@ body {
 .standout-text {
   font-size: 1.5em; /* Adjust the size as needed */
   font-weight: bold;
-}
-
-/* Content container styling */
-.content-container {
-  flex: 1 1 70%; /* Take up 70% of the available width */
-  margin: 20px;
-  padding: 20px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Hide the navigation when the screen width is less than 800px */
